@@ -1,5 +1,31 @@
-# Vue 3 + Vite
+## 🚀 Tecnologias
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+- [Vue.js 3](https://vuejs.org/) – framework front-end reativo
+- [Vite](https://vitejs.dev/) – build tool e servidor de desenvolvimento
+- [Vue Router 4](https://router.vuejs.org/) – gerenciamento de rotas
+- [JavaScript (ESNext)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML) e [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Node.js](https://nodejs.org/) e [NPM](https://www.npmjs.com/) – ambiente de execução e dependências
+
+---
+
+Vue.js 3
+ → Framework progressivo para construção da interface reativa.
+
+Vite
+ → Ferramenta de build e servidor de desenvolvimento rápido.
+
+Vue Router 4
+ → Gerenciamento de rotas para navegação entre páginas (Home / Sobre).
+
+JavaScript (ESNext) → Linguagem principal do projeto, aproveitando recursos modernos do ECMAScript.
+
+HTML5 + CSS3 → Estrutura e estilização base da aplicação.
+
+CSS Custom Properties (variáveis CSS) → Para definir tema (cores, fundo, texto).
+
+Scoped CSS (Vue Single File Components) → Estilo aplicado por componente sem afetar o resto do app.
+
+Node.js + NPM → Ambiente de execução e gerenciamento de pacotes.
