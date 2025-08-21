@@ -1,4 +1,5 @@
 Novas funcionalidades
+
 Foram adicionados recursos ao projeto para demonstrar conceitos básicos do Vue 3. As principais adições são:
 
 Nova página (src/views/HomePage.vue): Um novo componente de página foi criado para servir como a tela inicial da aplicação.
