@@ -1,3 +1,7 @@
+Projeto da Agência de Viagem da aula 1 com interpolação e variáveis globais.
+
+---
+
 Novas funcionalidades
 
 Foram adicionados recursos ao projeto para demonstrar conceitos básicos do Vue 3. As principais adições são:
