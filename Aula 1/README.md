@@ -1,3 +1,7 @@
+Desenvolvimento de uma página web com o tema "Agência de Viagens" utilizando Vue.
+
+---
+
 ## 🚀 Tecnologias
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
