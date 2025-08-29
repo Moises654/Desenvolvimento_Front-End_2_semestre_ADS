@@ -1,40 +1,23 @@
 {
-  "name": "smpm-sistema",
-  "version": "1.0.0",
-  "description": "Sistema de Manutenção Preventiva de Máquinas",
+  "name": "projeto_final",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "test": "vitest",
-    "test:ui": "vitest --ui",
-    "test:e2e": "playwright test",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
-    "format": "prettier --write ."
+    "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.0",
-    "vue-router": "^4.2.5",
-    "pinia": "^2.1.7",
-    "axios": "^1.6.2"
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.5.2",
-    "vite": "^5.0.8",
-    "tailwindcss": "^3.3.6",
-    "postcss": "^8.4.32",
-    "autoprefixer": "^10.4.16",
-    "eslint": "^8.56.0",
-    "eslint-plugin-vue": "^9.19.2",
-    "prettier": "^3.1.1",
-    "vitest": "^1.1.0",
-    "@vue/test-utils": "^2.4.3",
-    "jsdom": "^23.0.1",
-    "@playwright/test": "^1.40.1"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "@tailwindcss/vite": "^4.1.12",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "tailwindcss": "^4.1.12",
+    "vite": "^7.1.2"
   }
 }
