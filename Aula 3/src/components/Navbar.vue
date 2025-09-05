@@ -1,8 +1,8 @@
 <template>
-    <div class="bg-blue-900 w-full text-white p-6">
+    <div class="bg-slate-600 w-full text-white p-6">
         <div class="flex justify-between items-center max-sm:flex-col max-sm:gap-5">
             <div class="font-bold">
-                <h3 class="text-3xl">Manutenções Pro</h3>
+                <h3 class="text-3xl">TekPro</h3>
             </div>
             <div class="menu">
                 <ul class="flex gap-14 text-[20px] text-center max-sm:flex-col max-sm:gap-5">
