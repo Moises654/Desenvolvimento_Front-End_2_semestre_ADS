@@ -30,8 +30,8 @@ O SMPM é uma aplicação web desenvolvida em Vue 3 + Vite com TailwindCSS, cria
 
 🚀 Como rodar o projeto
 
-Instalar dependências
+Instalar dependências:
 npm install
 
-Rodar em ambiente de desenvolvimento
+Rodar em ambiente de desenvolvimento:
 npm run dev
