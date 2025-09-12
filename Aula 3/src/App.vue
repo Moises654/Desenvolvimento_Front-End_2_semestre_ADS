@@ -1,13 +1,19 @@
-<script setup>
-import Navbar from './components/Navbar.vue';
-import Footer from './components/Footer.vue';
-</script>
-
 <template>
-  <Navbar />
-  <router-view></router-view>
-  <Footer />
+  <div class="flex flex-col min-h-screen bg-gray-100">
+    <Navbar />
+    <main class="flex-grow">
+      <router-view />
+    </main>
+  </div>
 </template>
 
-<style scoped>
-</style>
+<script>
+import Navbar from './components/Navbar.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Navbar
+  }
+}
+</script>

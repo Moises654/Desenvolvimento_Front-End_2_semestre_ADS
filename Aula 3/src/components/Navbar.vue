@@ -1,40 +1,32 @@
 <template>
-    <div class="bg-slate-600 w-full text-white p-6">
-        <div class="flex justify-between items-center max-sm:flex-col max-sm:gap-5">
-            <div class="font-bold">
-                <h3 class="text-3xl">TekPro</h3>
-            </div>
-            <div class="menu">
-                <ul class="flex gap-14 text-[20px] text-center max-sm:flex-col max-sm:gap-5">
-                    <li class="cursor-pointer">
-                        <router-link 
-                        to="/" 
-                        class="border-b-2 border-transparent hover:border-b-2 hover:border-white transition duration-200">
-                        Home
-                        </router-link>
-                    </li>
-                    <li class="cursor-pointer">
-                        <router-link 
-                        to="/servicos"
-                        class="border-b-2 border-transparent hover:border-b-2 hover:border-white transition duration-200">
-                        Serviços
-                        </router-link>
-                    </li>
-                    <li class="cursor-pointer">
-                        <router-link 
-                        to="/contato"
-                        class="border-b-2 border-transparent hover:border-b-2 hover:border-white transition duration-200">
-                        Contato
-                        </router-link>
-                    </li>
-                </ul>
-            </div>
-        </div>
+  <nav class="bg-blue-900 text-white p-4 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-xl font-bold">
+        SMPM - Sistema de Manutenção
+      </div>
+      <div class="flex space-x-6">
+        <router-link 
+          to="/" 
+          class="hover:bg-blue-800 px-3 py-2 rounded transition-colors"
+          :class="{ 'bg-blue-800': $route.name === 'Dashboard' }"
+        >
+          Dashboard
+        </router-link>
+        <router-link 
+          to="/calendario" 
+          class="hover:bg-blue-800 px-3 py-2 rounded transition-colors"
+          :class="{ 'bg-blue-800': $route.name === 'Calendar' }"
+        >
+          Calendário
+        </router-link>
+        <router-link 
+          to="/manutencoes" 
+          class="hover:bg-blue-800 px-3 py-2 rounded transition-colors"
+          :class="{ 'bg-blue-800': $route.name === 'MaintenanceList' }"
+        >
+          Manutenções
+        </router-link>
+      </div>
     </div>
+  </nav>
 </template>
-
-<script>
-export default{
-    name: "Navbar"
-}
-</script>
