@@ -1,5 +1,36 @@
-# Vue 3 + Vite
+Projeto: Elaboração e criação de um SMPM - Sistema de Manutenção Preventiva de Máquinas
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+---
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+O SMPM é uma aplicação web desenvolvida em Vue 3 + Vite com TailwindCSS, criada para auxiliar no controle e acompanhamento de manutenções preventivas em máquinas.
+
+✨ Funcionalidades
+
+📊 Dashboard com visão geral das manutenções e indicadores.
+
+📅 Calendário para organizar as manutenções programadas.
+
+📝 Lista de Manutenções com visualização rápida das atividades.
+
+🔎 Detalhes de Manutenção com informações completas de cada tarefa.
+
+🎨 Interface responsiva e moderna utilizando TailwindCSS.
+
+🛠️ Tecnologias Utilizadas
+
+  - Vue 3
+
+  - Vue Router
+
+  - Vite
+
+  - TailwindCSS
+
+  - PostCSS
+
+🚀 Como rodar o projeto
+# Instalar dependências
+npm install
+
+# Rodar em ambiente de desenvolvimento
+npm run dev
